@@ -28,6 +28,9 @@
 
 
 }
+body{
+  border: rgba(78, 71, 255, 1);
+}
 /* button section */
 button{
   background-color:rgba(78, 71, 255, 1) ;
@@ -53,6 +56,15 @@ border-radius: 10px;
   padding: 12px 36px;
   border-radius: 10px;
 }
+.furth-botton{
+  font-size: 16px;
+  
+  height: 148;
+  padding:12px 36px;
+ border-radius: 10px;
+}
+
+
 
 .banner-img{
   background-image:url(Assets/Hero-bg.png) ;
@@ -73,6 +85,11 @@ justify-content: center;
 text-align: center;
 padding-left: 267px;
 
+}
+.main{
+  max-width:1140px;
+  margin: 0% auto;
+  
 }
 .action-cection{
   display: flex;
@@ -130,4 +147,55 @@ padding-left: 267px;
 .user-titele{
   font-size: 38px;
   width:600px ;
+}
+.reviewer-name{
+  display: flex;
+
+}
+.section-users{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+
+}
+.review-title-fsat{
+ height: 240px;
+
+}
+.user-heding{
+text-align: center;
+}
+.conten{
+  text-align: center;
+}
+.conten h1 {
+  font-size: 50px;
+
+  justify-content: center;
+
+}
+.conten img{
+  border-radius: 48px;
+}
+.discriprion{
+  color: rgba(0, 0, 0, 0.5);
+
+}
+.form-section{
+display: block;
+justify-content: center;
+align-items: center;
+
+}
+.forom-section{
+  display: flex;
+   gap:115px ;
+   margin-top: 115px;
+   padding-left: 250px;
+ 
+
+}
+.forom-contenar{
+  width: 32px;
 }
