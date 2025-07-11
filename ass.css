@@ -167,20 +167,20 @@ padding-left: 267px;
   display: flex;
 
 }
-.section-users{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 20px;
+.suers-review{
+ display: flex;
+ background-color: rgba(242, 237, 237, 1);
+ border-radius: 10px;
+padding:24px;
+gap:20px;
+}
+.section-users img{
+  border-radius: 20px;
+ 
+  border-radius: 10px;
+}
 
-}
-.review-title-fsat{
- height: 240px;
 
-}
-.user-heding{
-text-align: center;
-}
 .conten{
   text-align: center;
 }
